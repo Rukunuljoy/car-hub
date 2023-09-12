@@ -22,7 +22,7 @@ const SearchManufacture = ({
         );
 
   return (
-    <div className="search-Manufacture">
+    <div className="search-Manufacture ">
       <Combobox value={manuFacture} onChange={setManuFacture}>
         <div className="relative w-full">
           <Combobox.Button className="absolute top-[14px]">
